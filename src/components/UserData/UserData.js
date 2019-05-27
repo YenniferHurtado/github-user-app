@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './styles.css'
 import github from '../../images/github.png'
 
@@ -42,36 +42,38 @@ class UserData extends Component {
     }
 
     render() {
-        let user;
-        if (this.state.username) {
-            user = 
-            <div className="user_results">
-                <img src={this.state.avatar} width='128' height='128' alt="avatar-profile"/>
-                <div className="box_results"> 
-                    User: {this.state.username} 
-                    <br/>
-                    Id: {this.state.id} 
-                    <br/>
-                    Url: {this.state.url}
-                    <br/>
-                    Repositorios: {this.state.repos}
-                    <br/>
-                    Seguidores: {this.state.followers}     
-                    <br/>
-                    Seguidos: {this.state.following}
-                </div>
-            </div>
-        }
+        let { username, id, avatar, url ,repos, followers, following } = this.state 
+        console.log(username)
         return(
             <div className="userDataCont">
                 <img className='tittle_userData' src={github} alt="img-tittle"/>
-                <form>
-                    <input className="form_userData" ref="username" type="text" placeholder="Ingresa el nombre de usuario..."/>
-                </form>
+                { (username === null) ?
+                (<Fragment>
+                    <form>
+                        <input className="form_userData" ref="username" type="text" placeholder="Ingresa el nombre de usuario..."/>
+                    </form>
                 <button className="btn_userData" onClick={e => this.handleSubmit(e)}> SEARCH </button>
-                <div>
-                    { user }
+                </Fragment>)
+                : 
+                (<Fragment>
+                <div className="user_results">
+                <img src={avatar} width='128' height='128' alt="avatar-profile"/>
+                <div className="box_results"> 
+                    User: {username} 
+                    <br/>
+                    Id: {id} 
+                    <br/>
+                    Url: {url}
+                    <br/>
+                    Repositorios: {repos}
+                    <br/>
+                    Seguidores: {followers}     
+                    <br/>
+                    Seguidos: {following}
                 </div>
+                </div> 
+                </Fragment>)
+              }
             </div>
         )
     }

@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Signika:400,700&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tittle_userData {
+    width: 500px;
+}
+
+.form_userData {
+    width: 400px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 12px 12px 40px -12px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn_userData {
+    margin-top: 20px;
+    width: 120px;
+    background: #847179;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.user_results {
+    margin: 50px;
+    padding: 10px;
+    background: #d0d3b8;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(73, 66, 66);
+    box-shadow: 12px 12px 40px -12px rgba(121, 100, 124, 0.8);
+    line-height: 30px;
+}
+
+.box_resuls {
+    margin: 15px;
+}

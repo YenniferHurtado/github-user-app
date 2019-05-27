@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github-user-react/static/css/main.71b26a04.chunk.css",
-    "main.js": "/github-user-react/static/js/main.6bdacc96.chunk.js",
-    "main.js.map": "/github-user-react/static/js/main.6bdacc96.chunk.js.map",
-    "runtime~main.js": "/github-user-react/static/js/runtime~main.9972a24c.js",
-    "runtime~main.js.map": "/github-user-react/static/js/runtime~main.9972a24c.js.map",
-    "static/js/2.7eea2e3d.chunk.js": "/github-user-react/static/js/2.7eea2e3d.chunk.js",
-    "static/js/2.7eea2e3d.chunk.js.map": "/github-user-react/static/js/2.7eea2e3d.chunk.js.map",
-    "index.html": "/github-user-react/index.html",
-    "precache-manifest.e8d10c1bbc65dd964d1c4a831adc1bf9.js": "/github-user-react/precache-manifest.e8d10c1bbc65dd964d1c4a831adc1bf9.js",
-    "service-worker.js": "/github-user-react/service-worker.js",
-    "static/css/main.71b26a04.chunk.css.map": "/github-user-react/static/css/main.71b26a04.chunk.css.map",
-    "static/media/github.png": "/github-user-react/static/media/github.b874ac62.png"
+    "main.css": "/github-user-app/static/css/main.71b26a04.chunk.css",
+    "main.js": "/github-user-app/static/js/main.5a4bd838.chunk.js",
+    "main.js.map": "/github-user-app/static/js/main.5a4bd838.chunk.js.map",
+    "runtime~main.js": "/github-user-app/static/js/runtime~main.9c4ec415.js",
+    "runtime~main.js.map": "/github-user-app/static/js/runtime~main.9c4ec415.js.map",
+    "static/js/2.7eea2e3d.chunk.js": "/github-user-app/static/js/2.7eea2e3d.chunk.js",
+    "static/js/2.7eea2e3d.chunk.js.map": "/github-user-app/static/js/2.7eea2e3d.chunk.js.map",
+    "index.html": "/github-user-app/index.html",
+    "precache-manifest.474f7b944c601c785247870c4ba67b9c.js": "/github-user-app/precache-manifest.474f7b944c601c785247870c4ba67b9c.js",
+    "service-worker.js": "/github-user-app/service-worker.js",
+    "static/css/main.71b26a04.chunk.css.map": "/github-user-app/static/css/main.71b26a04.chunk.css.map",
+    "static/media/github.png": "/github-user-app/static/media/github.b874ac62.png"
   }
 }

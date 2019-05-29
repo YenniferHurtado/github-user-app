@@ -2,7 +2,7 @@
   "name": "github-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yenniferhurtado.github.io/github-user-react/",
+  "homepage": "https://yenniferhurtado.github.io/github-user-app/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
